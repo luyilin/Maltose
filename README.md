@@ -1,8 +1,10 @@
 # Maltose
 
+a cute emoticon keyboard which can generate random emoticon
+
 ## introduction
 
-Demo
+[Demo]()
 
 ## Install
 

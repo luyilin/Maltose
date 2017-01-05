@@ -344,11 +344,11 @@
     "type": "image",
     "container": [
       {
-        "icon": "<img src=../source/cute/cat.jpg>",
+        "icon": "<img src=../src/source/cute/cat.jpg>",
         "text": ""
       },
       {
-        "icon": "<img src=../source/cute/2.jpg>",
+        "icon": "<img src=../src/source/cute/2.jpg>",
         "text": ""
       },
       {
@@ -361,23 +361,23 @@
     "type": "image",
     "container": [
       {
-          "icon": "<img src=../source/tableTennis/1.jpg>",
+          "icon": "<img src=../src/source/tableTennis/1.jpg>",
           "text": "face1"
       },
       {
-          "icon": "<img src=../source/tableTennis/2.jpg>",
+          "icon": "<img src=../src/source/tableTennis/2.jpg>",
           "text": "face2"
       },
       {
-          "icon": "<img src=../source/tableTennis/3.jpg>",
+          "icon": "<img src=../src/source/tableTennis/3.jpg>",
           "text": "face3"
       },
       {
-          "icon": "<img src=../source/tableTennis/4.jpg>",
+          "icon": "<img src=../src/source/tableTennis/4.jpg>",
           "text": "face4"
       },
       {
-          "icon": "<img src=../source/tableTennis/5.jpg>",
+          "icon": "<img src=../src/source/tableTennis/5.jpg>",
           "text": "face5"
       }
     ]

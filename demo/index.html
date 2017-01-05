@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Maltose</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/maltose.min.css">
     <style>
         .wrap {
             max-width: 32rem;
@@ -35,12 +36,11 @@
             width: 100%;
             height: 50px;
             padding: 10px;
-            margin: 20px 0;
+            margin: 20px 0 0;
         }
         textarea:focus {
             outline: 2px solid rgba(255,160,122,1);
         }
-
     </style>
 </head>
 <body>
@@ -52,5 +52,15 @@
         <textarea></textarea>
         <div class="maltose"></div>
     </div>
+<script src="../dist/maltose.min.js"></script>
+<script>
+    var maltose_demo = new maltose({
+        wrap: document.getElementsByClassName('maltose')[0],
+        target: document.getElementsByTagName('textarea')[0],
+        width: '100%',
+        maxHeight: '200px',
+        api: './maltose.json'
+    });
+</script>
 </body>
 </html>

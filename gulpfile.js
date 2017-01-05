@@ -12,7 +12,7 @@ var browserSync = require('browser-sync').create();
 gulp.task('browser-sync', function() {
     browserSync.init({
         server: {
-            baseDir: './',
+            baseDir: './'
         },
         startPath: '/demo'
     });
@@ -49,7 +49,7 @@ gulp.task('compressCSS', function() {
 gulp.task('watch', function () {
     gulp.watch(['src/*.js'], ['compressJS']);
     gulp.watch(['src/*.scss'], ['compressCSS']);
-    gulp.watch('demo/*.html').on('change', browserSync.reload);
+    gulp.watch('demo/*').on('change', browserSync.reload);
 });
 
 gulp.task('release', ['compressJS', 'compressCSS']);

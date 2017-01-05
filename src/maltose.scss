@@ -1,0 +1,95 @@
+.maltose {
+    position: relative;
+    &.maltose-show {
+        .maltose-logo {
+            border-radius: 5px 5px 0 0;
+            color: #666;
+        }
+        .maltose-main {
+            display: block;
+        }
+    }
+    .maltose-logo {
+        width: 42px;
+        height: 20px;
+        line-height: 20px;
+        border: 1px solid #ffece4;
+        border-radius: 5px;
+        text-align: center;
+        color: #777;
+        background-color: #ffd9c9;
+        user-select: none;
+        cursor: pointer;
+    }
+    .maltose-main {
+        border: 1px solid #ffece4;
+        border-radius: 0 5px 5px 5px;
+        font-size: 0;
+        position: absolute;
+        top: 21px;
+        z-index: -1;
+        overflow: hidden;
+        display: none;
+        .maltose-ul {
+            display: none;
+            padding: 10px;
+            overflow: scroll;
+            .maltose-li {
+                user-select: none;
+                list-style: none;
+                float: left;
+                display: inline-block;
+                font-size: 12px;
+                line-height: 14px;
+                padding: 5px 10px;
+                margin: 0 10px 12px 0;
+                background-color: #fff9f6;
+                border-radius: 5px;
+                cursor: pointer;
+                position: relative;
+            }
+        }
+        .maltose-ul-emoji {
+            .maltose-li {
+                padding: 8px 12px;
+                font-size: 20px;
+            }
+        }
+        .maltose-ul-image {
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+        .maltose-ul-show {
+            display: block;
+        }
+    }
+    .maltose-title {
+        border-top: 1px solid #ffece4;
+        margin-top: 4px;
+        padding: 0;
+        overflow: hidden;
+        .maltose-tab {
+            list-style: none;
+            float: left;
+            padding: 5px 18px;
+            font-size: 14px;
+            color: #666;
+            background-color: #ffece4;
+            cursor: pointer;
+            &:hover {
+                background-color: #ffe2d7;
+            }
+            &.tab-show {
+                background-color: #ffe2d7;
+            }
+        }
+
+    }
+}
+
+::selection {
+    background: #ffb394;
+    color: #fff;
+}

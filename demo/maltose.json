@@ -1,0 +1,385 @@
+{
+  "颜文字": {
+    "type": "emoticon",
+    "container": [
+      {
+        "icon": "٩(ˊᗜˋ*)و",
+        "text": "哦哈哟"
+      },
+      {
+        "icon": "|´・ω・)ノ",
+        "text": "Hi"
+      },
+      {
+        "icon": "ヾ(≧∇≦*)ゝ",
+        "text": "开心"
+      },
+      {
+        "icon": "(☆ω☆)",
+        "text": "星星眼"
+      },
+      {
+        "icon": "（╯‵□′）╯︵┴─┴",
+        "text": "掀桌"
+      },
+      {
+        "icon": "￣﹃￣",
+        "text": "流口水"
+      },
+      {
+        "icon": "(/ω＼)",
+        "text": "捂脸"
+      },
+      {
+        "icon": "OωO",
+        "text": "oo"
+      },
+      {
+        "icon": "∠( ᐛ 」∠)＿",
+        "text": "给跪"
+      },
+      {
+        "icon": "(๑•̀ㅁ•́ฅ)",
+        "text": "打招呼"
+      },
+      {
+        "icon": "→_→",
+        "text": "斜眼"
+      },
+      {
+        "icon": "୧(๑•̀⌄•́๑)૭",
+        "text": "加油"
+      },
+      {
+        "icon": "(ノ°ο°)ノ",
+        "text": "前方高能预警"
+      },
+      {
+        "icon": "(´இ皿இ｀)",
+        "text": "我从未见过如此厚颜无耻之人"
+      },
+      {
+        "icon": "(╯°A°)╯︵○○○",
+        "text": "去吧大师球"
+      },
+      {
+        "icon": "φ(￣∇￣o)",
+        "text": "太萌惹"
+      },
+      {
+        "icon": "ヾ(´･ ･｀｡)ノ\"",
+        "text": "咦咦咦"
+      },
+      {
+        "icon": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
+        "text": "气到冒烟"
+      },
+      {
+        "icon": "(ó﹏ò｡)",
+        "text": "我受到了惊吓"
+      },
+      {
+        "icon": "Σ(っ °Д °;)っ",
+        "text": "什么鬼"
+      },
+      {
+        "icon": "( ,,´･ω･)ﾉ\"(´っω･｀｡)",
+        "text": "摸摸头"
+      },
+      {
+        "icon": "╮(╯▽╰)╭ ",
+        "text": "无奈"
+      },
+      {
+        "icon": "o(*////▽////*)q ",
+        "text": "脸红"
+      },
+      {
+        "icon": "＞﹏＜",
+        "text": ""
+      },
+      {
+        "icon": "(｡•ˇ‸ˇ•｡)",
+        "text": ""
+      },
+      {
+        "icon": "( ˘•ω•˘ )",
+        "text": "肿么了"
+      },
+      {
+        "icon": "⊙̆̈_⊙̆̈",
+        "text": ""
+      },
+      {
+        "icon": "ꉂ ೭(˵¯̴͒ꇴ¯̴͒˵)౨”",
+        "text": "啊哈哈"
+      },
+      {
+        "icon": "(๑•́ωก̀๑)",
+        "text": "揉眼睛~"
+      },
+      {
+        "icon": "(๑`н´๑)",
+        "text": "拿小拳拳锤你哦!"
+      },
+      {
+        "icon": "(๑òωó๑)",
+        "text": "来自四眼的注视~"
+      },
+      {
+        "icon": "✺◟(∗❛ัᴗ❛ั∗)◞✺",
+        "text": "红红火火嘿哈"
+      },
+      {
+        "icon": "(ಥ_ಥ)",
+        "text": "纳……纳尼"
+      },
+      {
+        "icon": "˚‧º·(˚ ˃̣̣̥᷄⌓˂̣̣̥᷅ )‧º·˚˚",
+        "text": "大哭"
+      },
+      {
+        "icon": "(｡•́︿•̀｡)",
+        "text": "不开森"
+      },
+      {
+        "icon": "୧(﹒︠ᴗ﹒︡)୨",
+        "text": "给你加油"
+      },
+      {
+        "icon": "๑(°ο°)๑",
+        "text": "惊呆了"
+      },{
+        "icon": "( *・ω・)",
+        "text": "神棍的光辉"
+      },
+      {
+        "icon": "(ಡωಡ)",
+        "text": "八卦脸"
+      },
+      {
+        "icon": "า(°﹏°า )",
+        "text": ""
+      },
+      {
+        "icon": "(￣▽￣)~*",
+        "text": "咦好酥糊"
+      },
+      {
+        "icon": "!!!∑(°Д°ノ)ノ",
+        "text": "吓屎宝宝了!"
+      },
+      {
+        "icon": "(°ー°〃)",
+        "text": ""
+      },
+      {
+        "icon": "(￣y▽￣)~*",
+        "text": "捂嘴偷笑"
+      },
+      {
+        "icon": "ㄟ(▔ ,▔)ㄏ",
+        "text": "蜡笔小新式无奈"
+      },
+      {
+        "icon": "(⁎⁍̴̛ᴗ⁍̴̛⁎)",
+        "text": "星星眼"
+      }
+    ]
+  },
+  "Emoji": {
+      "type": "emoji",
+      "container": [
+          {
+              "icon": "😂",
+              "text": ""
+          },
+          {
+              "icon": "😀",
+              "text": ""
+          },
+          {
+              "icon": "😅",
+              "text": ""
+          },
+          {
+              "icon": "😊",
+              "text": ""
+          },
+          {
+              "icon": "🙂",
+              "text": ""
+          },
+          {
+              "icon": "🙃",
+              "text": ""
+          },
+          {
+              "icon": "😌",
+              "text": ""
+          },
+          {
+              "icon": "😍",
+              "text": ""
+          },
+          {
+              "icon": "😘 ",
+              "text": ""
+          },
+          {
+              "icon": "😜",
+              "text": ""
+          },
+          {
+              "icon": "😝",
+              "text": ""
+          },
+          {
+              "icon": "😏",
+              "text": ""
+          },
+          {
+              "icon": "😒",
+              "text": ""
+          },
+          {
+              "icon": "🙄",
+              "text": ""
+          },
+          {
+              "icon": "😳 ",
+              "text": ""
+          },
+          {
+              "icon": "😡",
+              "text": ""
+          },
+          {
+              "icon": "😔",
+              "text": ""
+          },
+          {
+              "icon": "😫",
+              "text": ""
+          },
+          {
+              "icon": "😱",
+              "text": ""
+          },
+          {
+              "icon": "😭",
+              "text": ""
+          },
+          {
+              "icon": "💩",
+              "text": ""
+          },
+          {
+              "icon": "👻",
+              "text": ""
+          },
+          {
+              "icon": "🙌",
+              "text": ""
+          },
+          {
+              "icon": "🖕",
+              "text": ""
+          },
+          {
+              "icon": "👍",
+              "text": ""
+          },
+          {
+              "icon": "👫",
+              "text": ""
+          },
+          {
+              "icon": "👬",
+              "text": ""
+          },
+          {
+              "icon": "👭",
+              "text": ""
+          },
+          {
+              "icon": "🌚",
+              "text": ""
+          },
+          {
+              "icon": "🌝",
+              "text": ""
+          },
+          {
+              "icon": "🙈",
+              "text": ""
+          },
+          {
+              "icon": "💊",
+              "text": ""
+          },
+          {
+              "icon": "😶",
+              "text": ""
+          },
+          {
+              "icon": "🙏",
+              "text": ""
+          },
+          {
+              "icon": "🍦",
+              "text": ""
+          },
+          {
+              "icon": "🍉",
+              "text": ""
+          },
+          {
+              "icon": "😣",
+              "text": ""
+          }
+      ]
+  },
+  "cute": {
+    "type": "image",
+    "container": [
+      {
+        "icon": "<img src=../source/cute/cat.jpg>",
+        "text": ""
+      },
+      {
+        "icon": "<img src=../source/cute/2.jpg>",
+        "text": ""
+      },
+      {
+        "icon": "<img src=\"http://wx1.sinaimg.cn/bmiddle/db2724faly1fb6lwewqdcj20ax0alq3p0.jpg\">",
+        "text": ""
+      }
+    ]
+  },
+  "胖球": {
+    "type": "image",
+    "container": [
+      {
+          "icon": "<img src=../source/tableTennis/1.jpg>",
+          "text": "face1"
+      },
+      {
+          "icon": "<img src=../source/tableTennis/2.jpg>",
+          "text": "face2"
+      },
+      {
+          "icon": "<img src=../source/tableTennis/3.jpg>",
+          "text": "face3"
+      },
+      {
+          "icon": "<img src=../source/tableTennis/4.jpg>",
+          "text": "face4"
+      },
+      {
+          "icon": "<img src=../source/tableTennis/5.jpg>",
+          "text": "face5"
+      }
+    ]
+  }
+}

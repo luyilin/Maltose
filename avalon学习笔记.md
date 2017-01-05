@@ -16,14 +16,16 @@
   * 插值表达式{{}}在绑定属性的使用，只限那些能返回字符串的绑定属性，如ms-attr、ms-css、ms-include、ms-class、 ms-href、 ms-title、ms-src等。一旦出现插值表达式，说明这个整个东西分成可变的部分与不可变的部分，{{}}内为可变的，反之亦然。 如果没有{{}}说明整个东西都要求值，又如ms-include="'id'"，要用两种引号强制让它的内部不是一个变量。
   
 * avalon渲染完成后 ms-controller 渲染为 avalonctrl 因此为了避免未经处理的原始模板内容在页面载入时在页面中一闪而过，可设置 
-
+ 
   ```
   .ms-controller,.ms-important,[ms-controller],[ms-important]{      
       visibility: hidden; 
   }
   //防止出现未渲染的数据
   ```
+  
   avalon2.x
+  
   ```
   .ms-controller {
       visibility: hidden;

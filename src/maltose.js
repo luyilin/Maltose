@@ -33,7 +33,7 @@
         }
         init(option) {
             this.content = Object.keys(this.data)
-            let html = `<div class="maltose-logo">•́ωก̀</div>
+            let html = `<div class="maltose-logo"><span>•́ωก̀</span></div>
                         <div class="maltose-main" style="width: ${option.width};">`
             for(let i = 0; i < this.content.length; i++) {
                 html += `<ul class="maltose-ul maltose-ul-${this.data[this.content[i]].type}" style="max-height: ${parseInt(option.maxHeight) - 40 +'px'};">`

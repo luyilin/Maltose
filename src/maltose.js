@@ -67,7 +67,9 @@
                     content = j.target.parentNode
                 }
                 if (content) {
-                    this.target.value += content.innerHTML
+                    let cursorEnd = this.target.selectionEnd;
+                    let targetValue = this.target.value;
+                    this.target.value = targetValue.slice(0, cursorEnd) + content.innerHTML + targetValue.slice(cursorEnd);
                     this.target.focus()
                     this.toggle()
                 }

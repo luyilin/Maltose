@@ -112,7 +112,9 @@
             let i = Math.floor(Math.random() * this.content.length)
             let j = Math.floor(Math.random() * this.data[this.content[i]].container.length)
             let random = this.data[this.content[i]].container[j].icon
-            this.target.value += random
+            let cursorEnd = this.target.selectionEnd;
+            let targetValue = this.target.value;
+            this.target.value = targetValue.slice(0, cursorEnd) + random + targetValue.slice(cursorEnd);
             this.target.focus()
             this.toggle()
         }

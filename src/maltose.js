@@ -57,11 +57,13 @@
                 if (e.target.classList.contains('maltose-logo') || e.target.parentNode.classList && e.target.parentNode.classList.contains('maltose-logo')) {
                     this.target.focus()
                     this.toggle()
-                } else if (e.target.localName === 'textarea') {
-                    this.target.focus()
-                    if (this.wrap.classList.contains('maltose-show')) return
-                    this.wrap.classList.add('maltose-show')
-                } else {
+                }
+                else if (e.target.localName !== 'textarea') {
+                    // this.target.focus()
+                    // if (this.wrap.classList.contains('maltose-show')) return
+                    // this.wrap.classList.add('maltose-show')
+                // }
+                // else {
                     this.target.blur()
                     if (this.wrap.classList.contains('maltose-show')) {
                         this.wrap.classList.remove('maltose-show')

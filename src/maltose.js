@@ -55,6 +55,7 @@
 
             this.logo = document.querySelector('.maltose-logo')
             this.logo.addEventListener('click', () => {
+                this.target.focus()
                 this.toggle()
             })
 

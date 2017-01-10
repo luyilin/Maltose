@@ -53,14 +53,25 @@
 
             this.wrap.innerHTML = html
 
-            this.logo = document.querySelector('.maltose-logo')
-            this.logo.addEventListener('click', () => {
-                this.target.focus()
-                this.toggle()
+            document.addEventListener('click', (e) => {
+                if (e.target.classList.contains('maltose-logo') || e.target.parentNode.classList && e.target.parentNode.classList.contains('maltose-logo')) {
+                    this.target.focus()
+                    this.toggle()
+                } else if (e.target.localName === 'textarea') {
+                    this.target.focus()
+                    if (this.wrap.classList.contains('maltose-show')) return
+                    this.wrap.classList.add('maltose-show')
+                } else {
+                    this.target.blur()
+                    if (this.wrap.classList.contains('maltose-show')) {
+                        this.wrap.classList.remove('maltose-show')
+                    }
+                }
             })
 
             let main = document.getElementsByClassName('maltose-main')[0]
             main.addEventListener('click', (j) => {
+                event.stopPropagation()
                 let content = null
                 if (j.target.classList.contains('maltose-li')) {
                     content = j.target

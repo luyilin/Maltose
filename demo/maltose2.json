@@ -192,200 +192,157 @@
     ]
   }
 },
-  {"Emoji": {
+  {
+    "Emoji": {
       "type": "emoji",
       "container": [
-          {
-              "icon": "😂",
-              "text": ""
-          },
-          {
-              "icon": "😀",
-              "text": ""
-          },
-          {
-              "icon": "😅",
-              "text": ""
-          },
-          {
-              "icon": "😊",
-              "text": ""
-          },
-          {
-              "icon": "🙂",
-              "text": ""
-          },
-          {
-              "icon": "🙃",
-              "text": ""
-          },
-          {
-              "icon": "😌",
-              "text": ""
-          },
-          {
-              "icon": "😍",
-              "text": ""
-          },
-          {
-              "icon": "😘 ",
-              "text": ""
-          },
-          {
-              "icon": "😜",
-              "text": ""
-          },
-          {
-              "icon": "😝",
-              "text": ""
-          },
-          {
-              "icon": "😏",
-              "text": ""
-          },
-          {
-              "icon": "😒",
-              "text": ""
-          },
-          {
-              "icon": "🙄",
-              "text": ""
-          },
-          {
-              "icon": "😳 ",
-              "text": ""
-          },
-          {
-              "icon": "😡",
-              "text": ""
-          },
-          {
-              "icon": "😔",
-              "text": ""
-          },
-          {
-              "icon": "😫",
-              "text": ""
-          },
-          {
-              "icon": "😱",
-              "text": ""
-          },
-          {
-              "icon": "😭",
-              "text": ""
-          },
-          {
-              "icon": "💩",
-              "text": ""
-          },
-          {
-              "icon": "👻",
-              "text": ""
-          },
-          {
-              "icon": "🙌",
-              "text": ""
-          },
-          {
-              "icon": "🖕",
-              "text": ""
-          },
-          {
-              "icon": "👍",
-              "text": ""
-          },
-          {
-              "icon": "👫",
-              "text": ""
-          },
-          {
-              "icon": "👬",
-              "text": ""
-          },
-          {
-              "icon": "👭",
-              "text": ""
-          },
-          {
-              "icon": "🌚",
-              "text": ""
-          },
-          {
-              "icon": "🌝",
-              "text": ""
-          },
-          {
-              "icon": "🙈",
-              "text": ""
-          },
-          {
-              "icon": "💊",
-              "text": ""
-          },
-          {
-              "icon": "😶",
-              "text": ""
-          },
-          {
-              "icon": "🙏",
-              "text": ""
-          },
-          {
-              "icon": "🍦",
-              "text": ""
-          },
-          {
-              "icon": "🍉",
-              "text": ""
-          },
-          {
-              "icon": "😣",
-              "text": ""
-          }
-      ]
-  }
-  },
-  {"cute": {
-    "type": "image",
-    "container": [
-      {
-        "icon": "../src/source/cute/cat.jpg",
-        "text": ""
-      },
-      {
-        "icon": "../src/source/cute/2.jpg",
-        "text": ""
-      },
-      {
-        "icon": "https://wx1.sinaimg.cn/bmiddle/db2724faly1fb6lwewqdcj20ax0alq3p0.jpg>",
-        "text": ""
-      }
-    ]
-  }
-  },
-  {"胖球": {
-      "type": "image",
-      "container": [
         {
-          "icon": "../src/source/tableTennis/1.jpg",
-          "text": "face1"
+          "icon": "😂",
+          "text": ""
         },
         {
-          "icon": "../src/source/tableTennis/2.jpg",
-          "text": "face2"
+          "icon": "😀",
+          "text": ""
         },
         {
-          "icon": "../src/source/tableTennis/3.jpg",
-          "text": "face3"
+          "icon": "😅",
+          "text": ""
         },
         {
-          "icon": "../src/source/tableTennis/4.jpg",
-          "text": "face4"
+          "icon": "😊",
+          "text": ""
         },
         {
-          "icon": "../src/source/tableTennis/5.jpg",
-          "text": "face5"
+          "icon": "🙂",
+          "text": ""
+        },
+        {
+          "icon": "🙃",
+          "text": ""
+        },
+        {
+          "icon": "😌",
+          "text": ""
+        },
+        {
+          "icon": "😍",
+          "text": ""
+        },
+        {
+          "icon": "😘 ",
+          "text": ""
+        },
+        {
+          "icon": "😜",
+          "text": ""
+        },
+        {
+          "icon": "😝",
+          "text": ""
+        },
+        {
+          "icon": "😏",
+          "text": ""
+        },
+        {
+          "icon": "😒",
+          "text": ""
+        },
+        {
+          "icon": "🙄",
+          "text": ""
+        },
+        {
+          "icon": "😳 ",
+          "text": ""
+        },
+        {
+          "icon": "😡",
+          "text": ""
+        },
+        {
+          "icon": "😔",
+          "text": ""
+        },
+        {
+          "icon": "😫",
+          "text": ""
+        },
+        {
+          "icon": "😱",
+          "text": ""
+        },
+        {
+          "icon": "😭",
+          "text": ""
+        },
+        {
+          "icon": "💩",
+          "text": ""
+        },
+        {
+          "icon": "👻",
+          "text": ""
+        },
+        {
+          "icon": "🙌",
+          "text": ""
+        },
+        {
+          "icon": "🖕",
+          "text": ""
+        },
+        {
+          "icon": "👍",
+          "text": ""
+        },
+        {
+          "icon": "👫",
+          "text": ""
+        },
+        {
+          "icon": "👬",
+          "text": ""
+        },
+        {
+          "icon": "👭",
+          "text": ""
+        },
+        {
+          "icon": "🌚",
+          "text": ""
+        },
+        {
+          "icon": "🌝",
+          "text": ""
+        },
+        {
+          "icon": "🙈",
+          "text": ""
+        },
+        {
+          "icon": "💊",
+          "text": ""
+        },
+        {
+          "icon": "😶",
+          "text": ""
+        },
+        {
+          "icon": "🙏",
+          "text": ""
+        },
+        {
+          "icon": "🍦",
+          "text": ""
+        },
+        {
+          "icon": "🍉",
+          "text": ""
+        },
+        {
+          "icon": "😣",
+          "text": ""
         }
       ]
     }

@@ -350,15 +350,15 @@
     "type": "image",
     "container": [
       {
-        "icon": "<img src=../src/source/cute/cat.jpg>",
+        "icon": "../src/source/cute/cat.jpg",
         "text": ""
       },
       {
-        "icon": "<img src=../src/source/cute/2.jpg>",
+        "icon": "../src/source/cute/2.jpg",
         "text": ""
       },
       {
-        "icon": "<img src=\"https://wx1.sinaimg.cn/bmiddle/db2724faly1fb6lwewqdcj20ax0alq3p0.jpg\">",
+        "icon": "https://wx1.sinaimg.cn/bmiddle/db2724faly1fb6lwewqdcj20ax0alq3p0.jpg>",
         "text": ""
       }
     ]
@@ -368,23 +368,23 @@
       "type": "image",
       "container": [
         {
-          "icon": "<img src=../src/source/tableTennis/1.jpg>",
+          "icon": "../src/source/tableTennis/1.jpg",
           "text": "face1"
         },
         {
-          "icon": "<img src=../src/source/tableTennis/2.jpg>",
+          "icon": "../src/source/tableTennis/2.jpg",
           "text": "face2"
         },
         {
-          "icon": "<img src=../src/source/tableTennis/3.jpg>",
+          "icon": "../src/source/tableTennis/3.jpg",
           "text": "face3"
         },
         {
-          "icon": "<img src=../src/source/tableTennis/4.jpg>",
+          "icon": "../src/source/tableTennis/4.jpg",
           "text": "face4"
         },
         {
-          "icon": "<img src=../src/source/tableTennis/5.jpg>",
+          "icon": "../src/source/tableTennis/5.jpg",
           "text": "face5"
         }
       ]

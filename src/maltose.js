@@ -76,11 +76,16 @@
                     content = j.target.parentNode
                 }
                 if (content) {
-                    let cursorEnd = this.target.selectionEnd;
-                    let targetValue = this.target.value;
-                    this.target.value = targetValue.slice(0, cursorEnd) + content.innerHTML + targetValue.slice(cursorEnd);
+                    let inner = content.innerHTML,
+                        encodeInner = encodeURI(inner),
+                        decodeInner = decodeURI(encodeInner),
+                        cursorEnd = this.target.selectionEnd,
+                        targetValue = this.target.value;
+                    this.target.value = targetValue.slice(0, cursorEnd) + decodeInner + targetValue.slice(cursorEnd);
                     this.target.focus()
                     this.toggle()
+
+                    console.log(decodeInner)
                 }
             })
 
@@ -129,10 +134,11 @@
         }
     }
 
-    if (typeof define === "function" && define.amd){
-        define(maltose)
-    }
-    else if (typeof module != "undefined" && typeof module.exports != "undefined"){
+    // if (typeof define === "function" && define.amd){
+    //     define(maltose)
+    // }
+    // else 
+    if (typeof module != "undefined" && typeof module.exports != "undefined"){
         module.exports = maltose
     }
     else {

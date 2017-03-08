@@ -54,7 +54,7 @@
             this.wrap.innerHTML = html
 
             document.addEventListener('click', (e) => {
-                if (e.target.classList.contains('maltose-logo') || e.target.parentNode.classList && e.target.parentNode.classList.contains('maltose-logo')) {
+                if (e.target.classList.contains('maltose-logo') || e.target.parentNode && e.target.parentNode.classList && e.target.parentNode.classList.contains('maltose-logo')) {
                     this.target.focus()
                     this.toggle()
                 }
@@ -76,16 +76,11 @@
                     content = j.target.parentNode
                 }
                 if (content) {
-                    let inner = content.innerHTML,
-                        encodeInner = encodeURI(inner),
-                        decodeInner = decodeURI(encodeInner),
-                        cursorEnd = this.target.selectionEnd,
-                        targetValue = this.target.value;
-                    this.target.value = targetValue.slice(0, cursorEnd) + decodeInner + targetValue.slice(cursorEnd);
+                    let cursorEnd = this.target.selectionEnd;
+                    let targetValue = this.target.value;
+                    this.target.value = targetValue.slice(0, cursorEnd) + content.innerHTML + targetValue.slice(cursorEnd);
                     this.target.focus()
                     this.toggle()
-
-                    console.log(decodeInner)
                 }
             })
 
@@ -134,10 +129,6 @@
         }
     }
 
-    // if (typeof define === "function" && define.amd){
-    //     define(maltose)
-    // }
-    // else 
     if (typeof module != "undefined" && typeof module.exports != "undefined"){
         module.exports = maltose
     }

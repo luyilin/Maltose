@@ -1,6 +1,6 @@
 {
   "name": "Maltose",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "a cute emoticon keyboard which can generate random emoticon",
   "main": "dist/maltose.min.js",
   "scripts": {

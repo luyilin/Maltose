@@ -1,20 +1,23 @@
 .maltose {
     position: relative;
     &.maltose-show {
+        font-size: 16px;
         .maltose-logo {
             border-radius: 5px 5px 0 0;
             color: #666;
         }
         .maltose-main {
             display: block;
+            background-color: #fff;
         }
     }
     .maltose-logo {
+        box-sizing: content-box;
         width: 75px;
         height: 20px;
+        padding: 2px;
         font-size: 14px;
-        line-height: 20px;
-        border: 1px solid #ffece4;
+        line-height: 22px;
         border-radius: 5px;
         text-align: center;
         color: #777;
@@ -32,20 +35,21 @@
         border-radius: 0 5px 5px 5px;
         font-size: 0;
         position: absolute;
-        top: 21px;
-        z-index: -1;
+        top: 24px;
         overflow: hidden;
         display: none;
+        z-index: 2;
+        background-color: #fff;
         .maltose-ul {
             display: none;
-            padding: 10px;
+            padding: 12px;
             overflow: scroll;
             .maltose-li {
                 user-select: none;
                 list-style: none;
                 float: left;
                 display: inline-block;
-                font-size: 12px;
+                font-size: 14px;
                 line-height: 14px;
                 padding: 5px 10px;
                 margin: 0 10px 12px 0;
@@ -62,7 +66,7 @@
         }
         .maltose-ul-emoji {
             .maltose-li {
-                padding: 8px 12px;
+                padding: 15px 10px 8px;
                 font-size: 20px;
             }
         }
@@ -84,11 +88,12 @@
         .maltose-tab {
             list-style: none;
             float: left;
-            padding: 5px 18px;
+            padding: 3px 18px;
             font-size: 14px;
             color: #666;
             background-color: #ffece4;
             cursor: pointer;
+            line-height: 1.5;
             &:hover {
                 background-color: #ffe2d7;
             }
@@ -97,76 +102,4 @@
             }
         }
     }
-}
-
-::selection {
-    background: #ffb394;
-    color: #fff;
-}
-
-/*the animation definition*/
-@-webkit-keyframes tada {
-    0% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-    10%,
-    20% {
-        -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-    }
-    30%,
-    50%,
-    70%,
-    90% {
-        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    }
-    40%,
-    60%,
-    80% {
-        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    }
-    100% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-}
-@keyframes tada {
-    0% {
-        -webkit-transform: scale3d(1, 1, 1);
-        -ms-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-    10%,
-    20% {
-        -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-        -ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-    }
-    30%,
-    50%,
-    70%,
-    90% {
-        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-        -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    }
-    40%,
-    60%,
-    80% {
-        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-        -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    }
-    100% {
-        -webkit-transform: scale3d(1, 1, 1);
-        -ms-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-}
-.tada {
-    -webkit-animation-name: tada;
-    animation-name: tada;
 }

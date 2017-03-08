@@ -42,6 +42,8 @@ let maltose_demo = new maltose({
 
 ### Work with module bundler
 
+### JS
+
 ```js
 var maltose = require('maltoses');
 var maltose_demo = new maltose({
@@ -49,11 +51,15 @@ var maltose_demo = new maltose({
 });
 ```
 
+### CSS
+
+```css
+@import url('../../node_modules/maltoses/dist/maltose.min.css');
+```
+
 ## How to run  
 
 ```
  $ npm install
-
   $ gulp 
 ```
-

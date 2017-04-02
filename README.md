@@ -1,5 +1,8 @@
 # Maltose
 
+[![Build Status](https://travis-ci.org/luyilin/Maltose.svg?branch=master)](https://travis-ci.org/luyilin/Maltose)
+[![npm](https://img.shields.io/npm/dm/maltoses.svg)](https://github.com/luyilin/Maltose)
+
 a cute emoticon keyboard which can generate random emoticon
 
 ## introduction

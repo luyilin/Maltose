@@ -32,6 +32,7 @@
 
         }
         init(option) {
+            if (!document.querySelector('.maltose')) return
             this.content = Object.keys(this.data)
             let html = `<div class="maltose-logo"><span>•́ωก̀ 表情</span></div>
                         <div class="maltose-main" style="width: ${option.width};">`
@@ -67,7 +68,6 @@
             })
 
             let main = document.getElementsByClassName('maltose-main')[0]
-            if (!main) return
             main.addEventListener('click', (j) => {
                 event.stopPropagation()
                 let content = null
@@ -87,16 +87,13 @@
 
             let title = document.getElementsByClassName('maltose-title')[0];
             for(let i = 0; i < title.children.length; i++) {
-                if (!title.children[i]) return
                 title.children[i].addEventListener('click', () => {
                     this.changeTab(i)
                 })
             }
             this.changeTab(0)
 
-            let ttab = document.getElementsByClassName('random-tab')[0]
-            if (ttab) return
-            ttab.addEventListener('click', () => {
+            document.getElementsByClassName('random-tab')[0].addEventListener('click', () => {
                 this.random()
             })
         }

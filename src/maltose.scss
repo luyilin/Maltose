@@ -47,7 +47,7 @@
             .maltose-li {
                 user-select: none;
                 list-style: none;
-                float: left;
+                //float: left;
                 display: inline-block;
                 font-size: 14px;
                 line-height: 14px;
@@ -72,8 +72,8 @@
         }
         .maltose-ul-image {
             img {
-                width: 80px;
-                height: 80px;
+                width: 150px;
+                //height: 80px;
             }
         }
         .maltose-ul-show {

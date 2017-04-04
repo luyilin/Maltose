@@ -106,7 +106,7 @@
             }
         }
         changeTab(i) {
-            if (i > 3) return
+            if (i > 4) return
             let tab = document.getElementsByClassName('tab-show')[0]
             if (tab) {
                 tab.classList.remove('tab-show')

@@ -1,6 +1,6 @@
 {
   "name": "maltoses",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "a cute emoticon keyboard which can generate random emoticon",
   "main": "dist/maltose.min.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "keyborad",
     "random"
   ],
-  "author": "yilin",
+  "author": "luyilin <luyilin12@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/luyilin/Maltose.git/issues"

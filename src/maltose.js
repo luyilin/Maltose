@@ -39,8 +39,11 @@
             for(let i = 0; i < this.content.length; i++) {
                 html += `<ul class="maltose-ul maltose-ul-${this.data[this.content[i]].type}" style="max-height: ${parseInt(option.maxHeight) - 40 +'px'};">`
                 let li = this.data[this.content[i]].container
-                for(let i = 0; i < li.length; i++) {
-                    html += `<li class="maltose-li" title="${li[i].text}">${li[i].icon}</li>`
+                for(let j = 0; j < li.length; j++) {
+                    let notImg = this.content[i] === '颜文字' || this.content[i] === 'emoji'
+                    let classList = 'maltose-li ' + (notImg ? '' : 'maltose-img')
+                    let icon = notImg ? li[j].icon : `<img src="` + li[j].icon + `">`
+                    html += `<li class="` + classList + `" title="${li[j].text}">${icon}</li>`
                 }
                 html += `</ul>`
             }
@@ -77,9 +80,12 @@
                     content = j.target.parentNode
                 }
                 if (content) {
+                    let contentShow = content.classList.contains('maltose-img')
+                      ? `![img](` + content.children[0].getAttribute('src') + `)`
+                      : content.innerHTML
                     let cursorEnd = this.target.selectionEnd;
                     let targetValue = this.target.value;
-                    this.target.value = targetValue.slice(0, cursorEnd) + content.innerHTML + targetValue.slice(cursorEnd);
+                    this.target.value = targetValue.slice(0, cursorEnd) + contentShow + targetValue.slice(cursorEnd);
                     this.target.focus()
                     this.toggle()
                 }
@@ -121,7 +127,9 @@
         random() {
             let i = Math.floor(Math.random() * this.content.length)
             let j = Math.floor(Math.random() * this.data[this.content[i]].container.length)
-            let random = this.data[this.content[i]].container[j].icon
+            let notImg = this.content[i] === '颜文字' || this.content[i] === 'emoji'
+            let icon = this.data[this.content[i]].container[j].icon
+            let random = notImg ? icon : `![img](` + icon + `)`
             let cursorEnd = this.target.selectionEnd;
             let targetValue = this.target.value;
             this.target.value = targetValue.slice(0, cursorEnd) + random + targetValue.slice(cursorEnd);

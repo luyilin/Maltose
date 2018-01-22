@@ -1,7 +1,7 @@
 # Maltose
 
-[![Build Status](https://travis-ci.org/luyilin/Maltose.svg?branch=master)](https://travis-ci.org/luyilin/Maltose)
 [![npm](https://img.shields.io/npm/dm/maltoses.svg)](https://www.npmjs.com/package/maltoses)
+[![CircleCI](https://circleci.com/gh/luyilin/Maltose/tree/master.svg?style=shield)](https://circleci.com/gh/luyilin/Maltose/tree/master)
 
 a cute emoticon keyboard which can generate random emoticon
 

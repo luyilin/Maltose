@@ -1,6 +1,7 @@
 (() => {
     class maltose {
         constructor(option) {
+            if (!option) option = {}
             const defaultConfig = {
                 wrap: document.getElementsByClassName('maltose')[0],
                 target: document.getElementsByTagName('textarea')[0],
@@ -9,7 +10,7 @@
                 api: 'https://luyilin.github.io/Maltose/demo/maltose.json'
             };
             for(let i in defaultConfig) {
-                if (defaultConfig.hasOwnProperty(i) && !(option && option.hasOwnProperty(i))) {
+                if (defaultConfig.hasOwnProperty(i) && !option.hasOwnProperty(i)) {
                     option[i] = defaultConfig[i]
                 }
             }
@@ -85,8 +86,8 @@
                       : content.innerHTML
                     let cursorEnd = this.target.selectionEnd;
                     let targetValue = this.target.value;
-                    this.target.value = targetValue.slice(0, cursorEnd) + contentShow + targetValue.slice(cursorEnd);
                     this.target.focus()
+                    this.target.value = targetValue.slice(0, cursorEnd) + contentShow + targetValue.slice(cursorEnd);
                     this.toggle()
                 }
             })

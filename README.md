@@ -1,7 +1,7 @@
 # Maltose
 
-[![npm](https://img.shields.io/npm/dm/maltoses.svg)](https://www.npmjs.com/package/maltoses)
 [![CircleCI](https://circleci.com/gh/luyilin/Maltose/tree/master.svg?style=shield)](https://circleci.com/gh/luyilin/Maltose/tree/master)
+[![npm](https://img.shields.io/npm/dm/maltoses.svg)](https://www.npmjs.com/package/maltoses)
 
 a cute emoticon keyboard which can generate random emoticon
 
@@ -15,8 +15,8 @@ a cute emoticon keyboard which can generate random emoticon
 
 ## Install
 
-```js
-$ npm install maltoses --save
+```
+$ yarn add maltoses --save
 ```
 
 ## Usage
@@ -35,10 +35,6 @@ $ npm install maltoses --save
 
 ```js
 let maltose_demo = new maltose({
-    wrap: document.querySelector('.maltose'),
-    target: document.getElementsByTagName('textarea')[0],
-    width: '100%',
-    maxHeight: '200px',
     api: 'https://luyilin.github.io/Maltose/demo/maltose.json'
 })
 ```
@@ -48,15 +44,14 @@ let maltose_demo = new maltose({
 ### JS
 
 ```js
-var maltose = require('maltoses');
+var maltose = require('maltoses')
 var maltose_demo = new maltose({
-    // ...
-});
+})
 ```
 
 ### CSS
 
-```css
+```
 @import url('../../node_modules/maltoses/dist/maltose.min.css');
 ```
 

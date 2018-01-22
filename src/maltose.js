@@ -6,7 +6,7 @@
                 target: document.getElementsByTagName('textarea')[0],
                 width: '100%',
                 maxHeight: '200px',
-                api: '../demo/maltose.json'
+                api: 'https://luyilin.github.io/Maltose/demo/maltose.json'
             };
             for(let i in defaultConfig) {
                 if (defaultConfig.hasOwnProperty(i) && !option.hasOwnProperty(i)) {

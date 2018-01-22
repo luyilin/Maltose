@@ -55,6 +55,45 @@ var maltose_demo = new maltose({
 @import url('../../node_modules/maltoses/dist/maltose.min.css');
 ```
 
+## Options
+
+### wrap  
+
+Type: `string`<br>
+Default: `document.getElementsByClassName('maltose')[0]`
+
+The main tag which contains emoji panel.
+
+### target  
+
+Type: `string`<br>
+Default: `document.getElementsByTagName('textarea')[0]`
+
+The input or textarea tag which display the emoji or meme when you click them.
+
+The default tag is the first textarea tag in DOM.
+
+### width  
+
+Type: `string`<br>
+Default: `100%`
+
+The default with of the panel.
+
+### maxHeight  
+
+Type: `string`<br>
+Default: `200px`
+
+The default height of the panel.
+
+### api  
+
+Type: `string`<br>
+Default: `https://luyilin.github.io/Maltose/demo/maltose.json`
+
+Request this json file to get emoji and meme.
+
 ## How to run  
 
 ```

@@ -9,7 +9,7 @@
                 api: 'https://luyilin.github.io/Maltose/demo/maltose.json'
             };
             for(let i in defaultConfig) {
-                if (defaultConfig.hasOwnProperty(i) && !option.hasOwnProperty(i)) {
+                if (defaultConfig.hasOwnProperty(i) && !(option && option.hasOwnProperty(i))) {
                     option[i] = defaultConfig[i]
                 }
             }

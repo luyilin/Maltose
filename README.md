@@ -43,9 +43,7 @@ $ yarn add maltoses --save
 ### JS
 
 ```js
-let maltose_demo = new maltose({
-    api: 'https://luyilin.github.io/Maltose/demo/maltose.json'
-})
+const maltose_demo = new maltose()
 ```
 
 ### Work with module bundler
@@ -53,14 +51,10 @@ let maltose_demo = new maltose({
 ### JS
 
 ```js
-var maltose = require('maltoses')
-var maltose_demo = new maltose()
-```
+import maltose from 'maltoses'
+import 'maltoses/dist/maltose.min.css'
 
-### CSS
-
-```
-@import url('../../node_modules/maltoses/dist/maltose.min.css');
+const maltose_demo = new maltose()
 ```
 
 ## Options

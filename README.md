@@ -3,14 +3,19 @@
 [![CircleCI](https://circleci.com/gh/luyilin/Maltose/tree/master.svg?style=shield)](https://circleci.com/gh/luyilin/Maltose/tree/master)
 [![npm](https://img.shields.io/npm/dm/maltoses.svg)](https://www.npmjs.com/package/maltoses)
 
-a cute emoticon keyboard which can generate random emoticon
+A cute emoticon and emoji keyboard for textarea and input.
+
+Inspired by the lovely [keyboard](https://github.com/DIYgod/OwO) maded by DIYgod.
+
+More feature: it can generate random emoticon 💃
 
 ## introduction
 
-* [Demo](https://luyilin.github.io/Maltose/demo/)
+[Demo](https://luyilin.github.io/Maltose/demo/)
 
-* 非常喜欢 DIYgod 大神的 OwO 项目, 自定义的表情输入框很可爱, 代码简洁优美, 所以自己实现了一个, 添加了随机生成表情的功能 ٩(ˊᗜˋ*)و
+Preview
 
+![Screenshot](https://wx3.sinaimg.cn/mw690/a2117cdbgy1fnqdx4mdqhj20ii09e0tv.jpg)
 
 
 ## Install

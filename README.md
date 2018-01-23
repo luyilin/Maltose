@@ -5,9 +5,9 @@
 
 A cute emoticon and emoji keyboard for textarea and input.
 
-Inspired by the lovely [keyboard](https://github.com/DIYgod/OwO) maded by DIYgod.
+Inspired by the lovely [OwO](https://github.com/DIYgod/OwO) maded by DIYgod.
 
-More features: 
+>More features: 
 
 Generate random emoticon 💃
 
@@ -19,7 +19,7 @@ Support markdown syntax to display the cute images.
 
 Preview
 
-![Screenshot](https://wx3.sinaimg.cn/mw690/a2117cdbgy1fnqdx4mdqhj20ii09e0tv.jpg)
+![Screenshot](https://wx4.sinaimg.cn/mw690/a2117cdbgy1fnqkrudssaj20j209umyi.jpg)
 
 
 ## Install

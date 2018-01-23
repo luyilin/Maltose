@@ -45,8 +45,7 @@ let maltose_demo = new maltose({
 
 ```js
 var maltose = require('maltoses')
-var maltose_demo = new maltose({
-})
+var maltose_demo = new maltose()
 ```
 
 ### CSS

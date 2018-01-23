@@ -7,7 +7,11 @@ A cute emoticon and emoji keyboard for textarea and input.
 
 Inspired by the lovely [keyboard](https://github.com/DIYgod/OwO) maded by DIYgod.
 
-More feature: it can generate random emoticon 💃
+More features: 
+
+Generate random emoticon 💃
+
+Support markdown syntax to display the cute images. 
 
 ## introduction
 
@@ -82,7 +86,7 @@ The default tag is the first textarea tag in DOM.
 Type: `string`<br>
 Default: `100%`
 
-The default with of the panel.
+The default width of the panel.
 
 ### maxHeight  
 
@@ -96,7 +100,7 @@ The default height of the panel.
 Type: `string`<br>
 Default: `https://luyilin.github.io/Maltose/demo/maltose.json`
 
-Request this json file to get emoji and meme.
+Request the json file to get emoji and meme.
 
 ## How to run  
 

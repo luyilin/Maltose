@@ -48,8 +48,6 @@ const maltose_demo = new maltose()
 
 ### Work with module bundler
 
-### JS
-
 ```js
 import maltose from 'maltoses'
 import 'maltoses/dist/maltose.min.css'

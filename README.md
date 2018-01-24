@@ -1,7 +1,6 @@
 # Maltose
 
-[![CircleCI](https://circleci.com/gh/luyilin/Maltose/tree/master.svg?style=shield)](https://circleci.com/gh/luyilin/Maltose/tree/master)
-[![npm](https://img.shields.io/npm/dm/maltoses.svg)](https://www.npmjs.com/package/maltoses)
+[![NPM version](https://img.shields.io/npm/v/maltoses.svg?style=flat)](https://npmjs.com/package/maltoses) [![NPM downloads](https://img.shields.io/npm/dm/maltoses.svg?style=flat)](https://npmjs.com/package/maltoses) [![CircleCI](https://circleci.com/gh/luyilin/Maltose/tree/master.svg?style=shield)](https://circleci.com/gh/luyilin/Maltose/tree/master)
 
 A cute emoticon and emoji keyboard for textarea and input.
 

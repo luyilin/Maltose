@@ -1,7 +1,6 @@
 (() => {
     class maltose {
-        constructor(option) {
-            if (!option) option = {}
+        constructor(option = {}) {
             const defaultConfig = {
                 wrap: document.getElementsByClassName('maltose')[0],
                 target: document.getElementsByTagName('textarea')[0],

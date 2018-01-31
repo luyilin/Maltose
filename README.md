@@ -12,13 +12,13 @@ Generate random emoticon 💃
 
 Support markdown syntax to display the cute images. 
 
-## introduction
+## Introduction
 
 [Demo](https://luyilin.github.io/Maltose/demo/)
 
 Preview
 
-![Screenshot](https://wx4.sinaimg.cn/mw690/a2117cdbgy1fnqkrudssaj20j209umyi.jpg)
+![Screenshot](https://wx1.sinaimg.cn/mw690/a2117cdbly1fo07f56pxpj212u0k0jun.jpg)
 
 
 ## Install
@@ -83,7 +83,7 @@ Default: `100%`
 
 The width of the panel.
 
-The default width is `100%`
+The default width is `100%`.
 
 ### maxHeight  
 

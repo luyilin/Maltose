@@ -8,17 +8,17 @@ Inspired by the lovely [OwO](https://github.com/DIYgod/OwO) maded by DIYgod.
 
 >More features: 
 
-Generate random emoticon 💃
+Generate random emoticon or emoji or image 💃
 
 Support markdown syntax to display the cute images. 
 
-## introduction
+## Introduction
 
 [Demo](https://luyilin.github.io/Maltose/demo/)
 
 Preview
 
-![Screenshot](https://wx4.sinaimg.cn/mw690/a2117cdbgy1fnqkrudssaj20j209umyi.jpg)
+![Screenshot](https://wx3.sinaimg.cn/mw690/a2117cdbly1fo0qp2jtugj20jo0angmz.jpg)
 
 
 ## Install
@@ -83,7 +83,7 @@ Default: `100%`
 
 The width of the panel.
 
-The default width is `100%`
+The default width is `100%`.
 
 ### maxHeight  
 

@@ -42,7 +42,7 @@
                 html += `<ul class="maltose-ul maltose-ul-${this.data[this.content[i]].type}" style="max-height: ${parseInt(option.maxHeight) - 40 +'px'};">`
                 let li = this.data[this.content[i]].container
                 for(let j = 0; j < li.length; j++) {
-                    let notImg = this.content[i] === 'emoticon' || this.content[i] === 'emoji'
+                    let notImg = this.content[i] === '颜文字' || this.content[i] === 'emoji'
                     let classList = 'maltose-li ' + (notImg ? '' : 'maltose-img')
                     let icon = notImg ? li[j].icon : `<img src="` + li[j].icon + `">`
                     html += `<li class="` + classList + `" title="${li[j].text}">${icon}</li>`
@@ -129,7 +129,7 @@
         random() {
             let i = Math.floor(Math.random() * this.content.length)
             let j = Math.floor(Math.random() * this.data[this.content[i]].container.length)
-            let notImg = this.content[i] === 'emoticon' || this.content[i] === 'emoji'
+            let notImg = this.content[i] === '颜文字' || this.content[i] === 'emoji'
             let icon = this.data[this.content[i]].container[j].icon
             let random = notImg ? icon : `![img](` + icon + `)`
             let cursorEnd = this.target.selectionEnd;

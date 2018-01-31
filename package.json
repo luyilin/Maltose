@@ -1,17 +1,18 @@
 {
   "name": "maltoses",
-  "version": "1.0.9",
-  "description": "a cute emoticon keyboard which can generate random emoticon",
+  "version": "1.1.0",
+  "description": "A cute emoticon and emoji keyboard which can generate random emoticon and no xss",
   "main": "dist/maltose.min.js",
   "scripts": {
     "run": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luyilin/Maltose.git"
+    "url": "luyilin/Maltose.git"
   },
   "keywords": [
     "emoticon",
+    "emoji",
     "keyborad",
     "random"
   ],
@@ -20,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/luyilin/Maltose.git/issues"
   },
-  "homepage": "https://github.com/luyilin/Maltose.git#readme",
   "devDependencies": {
     "babel-preset-es2015": "^6.6.0",
     "browser-sync": "^2.10.0",
@@ -33,6 +33,5 @@
     "gulp-sass": "^2.1.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.1"
-  },
-  "dependencies": {}
+  }
 }

@@ -29,7 +29,9 @@ $ yarn add maltoses --save
 
 ## Usage
 
-### HTML
+### Work with the single JavaScript file and the css file.
+ 
+#### HTML
 
 ```html
 <link rel="stylesheet" href="maltose.min.css">
@@ -39,7 +41,7 @@ $ yarn add maltoses --save
 <script src="maltose.min.js"></script>
 ```
 
-### JS
+#### JS
 
 ```js
 const maltose_demo = new maltose()
@@ -61,14 +63,16 @@ const maltose_demo = new maltose()
 Type: `string`<br>
 Default: `document.getElementsByClassName('maltose')[0]`
 
-The main tag which contains emoji panel.
+The main tag which contains emoji and emoticon.
+
+The default tag is the first element which classname contains `maltose`.
 
 ### target  
 
 Type: `string`<br>
 Default: `document.getElementsByTagName('textarea')[0]`
 
-The input or textarea tag which display the emoji or meme when you click them.
+The input or textarea tag which display the emoji or emoticon when you click it.
 
 The default tag is the first textarea tag in DOM.
 
@@ -77,25 +81,30 @@ The default tag is the first textarea tag in DOM.
 Type: `string`<br>
 Default: `100%`
 
-The default width of the panel.
+The width of the panel.
+
+The default width is `100%`
 
 ### maxHeight  
 
 Type: `string`<br>
 Default: `200px`
 
-The default height of the panel.
+The max-height of the panel.
+
+The default max-height is `200px`.
 
 ### api  
 
 Type: `string`<br>
 Default: `https://luyilin.github.io/Maltose/demo/maltose.json`
 
-Request the json file to get emoji and meme.
+Request the json file to get emoji and emoticon.
 
-## How to run  
+## Run  maltose  locally
 
 ```
- $ npm install
+ $ yarn install
+
   $ gulp 
 ```
